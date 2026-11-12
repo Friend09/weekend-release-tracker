@@ -43,6 +43,10 @@ Open http://127.0.0.1:5050/ in a browser. Stop the server with Control-C.
 The conversion route accepts integer minutes from 0 through 1440 and returns
 HTTP 400 for invalid input.
 
+## GitHub Setup
+
+merging into main branch requires a PR
+
 ## Release workflow
 
 Work on a feature branch and open a pull request into `main`.
