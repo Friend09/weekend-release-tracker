@@ -1,0 +1,15 @@
+[project]
+name = "weekend-release-tracker"
+version = "0.1.0"
+description = "A small service for learning GitHub Actions delivery"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "Flask>=3.1,<4",
+    "gunicorn>=23,<24",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.uv]
+package = false
